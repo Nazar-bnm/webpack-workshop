@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nazar-bnm/webpack-workshop#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0"
   }
