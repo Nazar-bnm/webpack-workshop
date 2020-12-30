@@ -1,12 +1,14 @@
 import './Features.css';
 
-export const features = ['Basic Config', 'Images', 'Styles'];
+// export const features = ['Basic Config', 'Images', 'Styles'];
 
 export default class Features {
+  features = ['Basic Config', 'Images', 'Styles', 'Babel'];
+
   render() {
     const list = document.createElement('ul');
     list.classList.add('feature-list')
-    features.forEach((text) => {
+    this.features.forEach((text) => {
       const item = document.createElement('li');
       item.innerHTML = text;
       list.appendChild(item);
