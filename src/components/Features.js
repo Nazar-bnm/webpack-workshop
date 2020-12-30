@@ -3,7 +3,7 @@ import './Features.css';
 // export const features = ['Basic Config', 'Images', 'Styles'];
 
 export default class Features {
-  features = ['Basic Config', 'Images', 'Styles', 'Babel'];
+  features = ['Basic Config', 'Images', 'Styles', 'Babel', 'Plugins'];
 
   render() {
     const list = document.createElement('ul');
